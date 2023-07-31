@@ -66,6 +66,7 @@ public class JavaMongoDemo {
 			 * result.getDeletedCount()); } catch (MongoException me) {
 			 * System.err.println("Unable to delete due to an error: " + me); }
 			 */
+			System.out.println("GitTest");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
