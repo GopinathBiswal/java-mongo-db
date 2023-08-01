@@ -12,6 +12,9 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.result.DeleteResult;
 
 public class JavaMongoDemo {
+	//HIS-301 changes
+	public Map<String, Object> map = new HashMap<String, Object>();
+  
 	//HIS-300 related changes
 	private static final String REST_URL="https://www.equifax.com/getScores";
 
@@ -73,6 +76,11 @@ public class JavaMongoDemo {
 			System.out.println(e);
 		}
 	} //main closing
+
+	//HIS-301 changes
+	public void authenticate {
+		//logic
+	}
 
 	//feature-vtx changes
 	public void doProcess {
