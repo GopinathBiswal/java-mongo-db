@@ -71,4 +71,10 @@ public class JavaMongoDemo {
 			System.out.println(e);
 		}
 	} //main closing
+
+	//feature-vtx changes
+	public void doProcess {
+		//logic goes here
+	}
+
 } //class closing
