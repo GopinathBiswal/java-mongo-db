@@ -12,6 +12,8 @@ import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.result.DeleteResult;
 
 public class JavaMongoDemo {
+	//HIS-300 related changes
+	private static final String REST_URL="https://www.equifax.com/getScores";
 
 	public static void main(String[] args) throws Exception {
 
